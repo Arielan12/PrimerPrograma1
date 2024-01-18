@@ -1,0 +1,13 @@
+public class App {
+    public static void main(String[] args) {
+        String nombre = "ariel";
+        double monto = 475.50;
+        double resultado = monto * 1.15; // Aplicar un 15 % adicional al monto
+
+        System.out.print("Bienvenido " + ". El total fue de " + resultado);
+
+    }
+
+
+
+    }
