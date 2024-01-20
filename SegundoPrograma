@@ -1,1 +1,28 @@
-jetbrains://idea/navigate/reference?project=SegundoPrograma&path=Main.java
+//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
+// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+public class Main {
+    public static void main(String[] args) {
+        // Sintaxis para declarar una variable String
+        String tipo = "computadora";
+
+// Sintaxis para declarar una constante double
+        final double TASA_DOLAR = 59.50;
+// Sintaxis para declarar una variable booleana
+        boolean disponible = false;
+
+        // Sintaxis para declarar una constante String
+        final String MENSAJE_BIENVENIDA = "Bienvenido a este módulo";
+// Sintaxis para realizar una operación y almacenar el resultado en una variable
+        int resultado = 4 * 9;
+
+        // Sintaxis para declarar variables double
+        double monto = 775.49;
+
+// Sintaxis para realizar cálculos y almacenar el resultado en otra variable
+        double montoConITBIS = monto * 1.18;
+
+// Sintaxis para imprimir en pantalla
+        System.out.println("El monto con ITBIS es: " + montoConITBIS);
+
+    }
+    }
